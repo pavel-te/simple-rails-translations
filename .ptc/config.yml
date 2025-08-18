@@ -1,3 +1,7 @@
 source-locale: "en"
-patterns:
-  - "config/locales/**/*{{lang}}.yml"
+files:
+  - file: "config/locales/en.yml"
+    output: "config/locales/{{lang}}.yml"
+
+  - file: "config/locales/devise.en.yml"
+    output: "config/locales/devise.{{lang}}.yml"
