@@ -1,0 +1,3 @@
+source-locale: "en"
+patterns:
+  - "config/locales/**/*{{lang}}.yml"
