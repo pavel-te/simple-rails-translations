@@ -27,7 +27,7 @@ jobs:
           PTC_API_TOKEN: ${{ secrets.PTC_API_TOKEN }}
         run: |
           ./ptc-cli.sh \
-            --config .ptc/config.yml \
+            --config-file .ptc/config.yml \
             --verbose
       
       - name: Clean up temporary files
