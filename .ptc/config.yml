@@ -1,4 +1,4 @@
-source-locale: "en"
+source_locale: "en"
 files:
   - file: "config/locales/en.yml"
     output: "config/locales/{{lang}}.yml"
