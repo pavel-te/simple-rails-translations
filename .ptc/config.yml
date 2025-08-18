@@ -1,4 +1,5 @@
 source_locale: en
+api_token: ${{ secrets.PTC_API_TOKEN }}
 files:
   - file: config/locales/en.yml
     output: config/locales/{{lang}}.yml
