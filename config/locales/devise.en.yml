@@ -1,0 +1,5 @@
+en:
+  devise:
+    confirmations:
+      confirmed: "Your account has been confirmed"
+      send_instructions: "You will receive an email with instructions for how to confirm your account in a few minutes."
