@@ -1,7 +1,7 @@
-source_locale: "en"
+source_locale: en
 files:
-  - file: "config/locales/en.yml"
-    output: "config/locales/{{lang}}.yml"
+  - file: config/locales/en.yml
+    output: config/locales/{{lang}}.yml
 
-  - file: "config/locales/devise.en.yml"
-    output: "config/locales/devise.{{lang}}.yml"
+  - file: config/locales/devise.en.yml
+    output: config/locales/devise.{{lang}}.yml
