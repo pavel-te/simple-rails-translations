@@ -1,0 +1,5 @@
+es:
+  devise:
+    confirmations:
+      confirmed: Tu cuenta ha sido confirmada
+      send_instructions: Recibirás un correo electrónico con instrucciones sobre cómo confirmar tu cuenta en unos minutos.
